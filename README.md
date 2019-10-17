@@ -4,7 +4,7 @@ Constraint-Based Question Answering with Knowledge Graph
 # Entity Linking
 The entity linking information is here: https://pan.baidu.com/s/1pMfhn31 passward:7wm9
 
-# Entity Linking Result Example
+# Example of Entity Linking Result
 #1 CompQ-8             who led the mexican calvary in the battle of puebla?       ["ignacio zaragoza"]        ##golden question and answer
 
 #2 [(False)en.battle_of_puebla:battle of puebla(7,9)]===>who led the mexican calvary in the e1 ||| Battle of Puebla ||| base.culturalevent.event.entity_involved ||| Topic[CVT:0()[SbjCONS:0()|CvtCONS:0()|AnsCONS:0()|OpeCONS:0()]===>ANS:3(F:0.5|P:0.333333333333333|R:1) ||| ["second french empire","charles de lorencez","ignacio zaragoza"] ##topic Entity information===>MulCG information===>answer information (you can get the entity linking result based on the topic information, which contains the ID: mention(span) information)
